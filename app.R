@@ -60,13 +60,6 @@ server <- function(input,output,session){
               type = "sent",
               rv$messages[message]
             )
-             # userMessage(
-             #   author = "Chat Bot",
-             #   date = rv$message_times[message],
-             #   # image = "https://adminlte.io/themes/AdminLTE/dist/img/user3-128x128.jpg",
-             #   type = "received",
-             #   "Let me check our dictionary"
-             # )
             )
             
             temp_tag <- append(temp_tag,
